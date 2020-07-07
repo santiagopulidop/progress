@@ -26,3 +26,6 @@ Your app is ready to be deployed!
 
 ### Api fake Usuarios de prueba
 https://finanzas-personales-api.herokuapp.com/users
+
+### Api fake componende informativo
+https://server-lovat.vercel.app/db/newsApi.json
