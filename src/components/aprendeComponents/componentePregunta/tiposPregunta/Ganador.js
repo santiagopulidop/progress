@@ -21,10 +21,8 @@ const Ganador = () => {
           experiencia: experiencia,
         }
       )
-      .then((res) => console.log("Hecho"))
+      .then((res) => console.log(""))
       .catch((err) => console.log(err));
-
-    console.log("API updated");
   }, [
     experiencia,
     globalContext.correo,
