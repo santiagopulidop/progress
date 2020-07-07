@@ -1,0 +1,178 @@
+@import "../core/_variables.scss";
+
+#control-login {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    min-height: 25vh;
+    max-width: 70%;
+    margin: 30% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $gris;
+    border-radius: 5px;
+    justify-content: center;
+    #iniciar-sesion,
+    #registrarse {
+      margin: 15px auto;
+      .btn {
+        width: 180px;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 100%;
+    min-height: 25vh;
+    max-width: 60%;
+    margin: 10% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $gris;
+    border-radius: 5px;
+    justify-content: center;
+    #iniciar-sesion,
+    #registrarse {
+      margin: 30px auto;
+      .btn {
+        width: 180px;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+    min-height: 40vh;
+    max-width: 50%;
+    margin: 4% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $gris;
+    border-radius: 5px;
+    justify-content: center;
+    #iniciar-sesion,
+    #registrarse {
+      margin: 35px auto;
+      .btn {
+        width: 250px;
+      }
+    }
+  }
+}
+
+#form-registro-container {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    label {
+      width: 100%;
+      max-width: 85%;
+      margin: 7px auto;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    label {
+      width: 100%;
+      max-width: 75%;
+      margin: 15px auto;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    label {
+      width: 100%;
+      max-width: 50%;
+      margin: 10px auto;
+    }
+  }
+}
+
+#login-container {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 25%;
+    label {
+      margin-bottom: 25px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 14%;
+    label {
+      margin-bottom: 25px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 35%;
+    margin: auto;
+    padding-top: 8%;
+    label {
+      margin-bottom: 25px;
+    }
+  }
+}
+#btn-container {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    button {
+      width: 120px;
+    }
+    #cancelar {
+      margin-left: 15px;
+    }
+    #entrar,
+    #enviar {
+      margin-right: 15px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    button {
+      width: 140px;
+    }
+    #cancelar {
+      margin-left: 15px;
+    }
+    #entrar,
+    #enviar {
+      margin-right: 15px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    button {
+      width: 140px;
+    }
+    #cancelar {
+      margin-left: 15px;
+    }
+    #entrar,
+    #enviar {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,228 @@
+@import "../core/_variables.scss";
+#prev {
+  left: -15%;
+}
+#next {
+  right: -15%;
+}
+
+/* Queries y CSS para el carrusel de videos */
+#carrusel-videos {
+  max-height: 50%;
+  margin: 50px 5% 0 5%;
+  #next-control,
+  #previous-control {
+    width: 35px;
+    height: 50px;
+  }
+
+  #carouselExampleIndicators ol {
+    bottom: -45px;
+
+    li {
+      background-color: #6c757d;
+    }
+  }
+  @media screen and (min-width: 200px) and (max-width: 767px) {
+    width: 100%;
+    max-width: 77%;
+    margin: 10% auto;
+    #next-control,
+    #previous-control {
+      width: 30px;
+      height: 25px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 100%;
+    max-width: 60%;
+    margin: 5% auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #carrusel-videos {
+    width: 100%;
+    max-width: 60%;
+    margin: 1.8% auto 0 auto;
+  }
+}
+
+/* Se coculta vista mobile en resolucion tablet */
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Se coculta vista mobile en resolucion desktop */
+@media screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Queries para tablets */
+#vista-tablet {
+  @media screen and (max-width: 490px) {
+    .card {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 490px) and (max-width: 1024px) {
+    .card {
+      max-width: 43%;
+      img {
+        padding-top: 5px;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+/* Queries para escritorio */
+#desktop {
+  @media screen and (max-width: 490px) {
+    .card {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 490px) and (max-width: 1023px) {
+    .card {
+      display: none;
+    }
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .link .btn {
+      position: static;
+      margin: 10px 0;
+    }
+  }
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  #logo {
+    display: none;
+  }
+}
+
+.cuenta-historia {
+  width: 100%;
+  max-width: 95%;
+  margin: auto;
+
+  /* .contenido-historia {
+    font-family: $font-roboto;
+    margin: 1.3rem 0 2.5rem 0;
+  } */
+
+  @media screen and (min-width: 490px) and (max-width: 1024px) {
+    .titulo-historia {
+      width: 100%;
+      max-width: 80%;
+      margin: auto;
+    }
+    #atras {
+      top: 16%;
+    }
+  }
+}
+.mini-header {
+  max-width: 60%;
+  margin: auto;
+  max-height: 80px;
+  .card-body {
+    min-height: 35px;
+  }
+}
+
+.contenedor-inspirate {
+  #nav-bar-inspirate {
+    #videos-titulo,
+    #historias-titulo {
+      color: $info;
+      font-family: $font-pacifico;
+    }
+  }
+  .cuenta-historia {
+    position: relative;
+  }
+  #titular-historia {
+    font-family: $font-roboto;
+    color: $gris;
+  }
+  #atras {
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 2%;
+    top: 0;
+
+    color: $info;
+  }
+  .titulo-historia {
+    margin-left: 10px;
+    padding-bottom: 5%;
+  }
+  @media screen and (min-width: 490px) and (max-width: 1024px) {
+    .titulo-historia {
+      margin: auto;
+      padding-bottom: 5%;
+    }
+    #atras {
+      top: 0%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .titulo-historia {
+      margin: auto;
+      padding-bottom: 2%;
+    }
+    #atras {
+      top: 2%;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+/* imagenes del contenido historias */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .imagen-contenido {
+    width: 100%;
+    max-height: 50%;
+  }
+  .contenido-historia {
+    font-family: $font-roboto;
+    margin: 1.3rem 0 2.5rem 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagen-contenido {
+    max-width: 80%;
+    margin: 0 10%;
+    max-height: 50%;
+  }
+  .contenido-historia {
+    font-family: $font-roboto;
+    margin: 1.3rem 0 2.5rem 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .imagen-contenido {
+    max-width: 60%;
+    margin: 0 20%;
+    height: auto;
+  }
+  .contenido-historia {
+    font-family: $font-roboto;
+    margin: 1.3rem 0 2.5rem 0;
+  }
+}

@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "nombre": "Estado Financiero",
+    "imagen_desbloqueado": "Nivel_1.png",
+    "imagen_bloqueado": "Nivel_1_gris.png",
+    "requerimientos": [],
+    "preguntas": [
+      {
+        "tipo": "intro"
+      },
+      {
+        "titulo": "Completa la oración...",
+        "tipo": "clo",
+        "descripcion": "Una persona debería gastar un máximo del _______ de sus ingresos ANUALES en cubrir sus necesidades básicas. ",
+        "opciones": [
+          {
+            "texto": "50%",
+            "value": false
+          },
+          {
+            "texto": "60%",
+            "value": false
+          },
+          {
+            "texto": "70%",
+            "value": true
+          },
+          {
+            "texto": "80%",
+            "value": false
+          },
+          {
+            "texto": "90%",
+            "value": false
+          }
+        ],
+
+        "retroalimentacion": false
+      },
+      {
+        "titulo": "Elige la respuesta correcta...",
+        "tipo": "elrc",
+        "descripcion": "Desembolso mensual para cubrir obligaciones contraídas entre dos entidades (persona, grupo, empresa, Estado), tales como pagos a tarjetas de crédito, crédito de vehículo, libre inversión, crédito educativo, etc. Hace eferencia a:",
+        "opciones": [
+          {
+            "texto": "Préstamos",
+            "value": false
+          },
+          {
+            "texto": "Deudas",
+            "value": true
+          },
+          {
+            "texto": "Cuentas",
+            "value": false
+          },
+          {
+            "texto": "Gasto básico",
+            "value": false
+          },
+          {
+            "texto": "Inversión",
+            "value": false
+          },
+          {
+            "texto": "Ingresos",
+            "value": false
+          },
+          {
+            "texto": "Comportamiento",
+            "value": false
+          },
+          {
+            "texto": "Crédito",
+            "value": false
+          }
+        ],
+        "retroalimentacion": "Ahora que sabes bien qué es una deuda, suma tus valores actuales y comparalos con tu nivel de ingresos.  "
+      },
+      {
+        "titulo": "Emparejamiento...",
+        "tipo": "emp",
+        "descripcion": "",
+        "opciones": [
+          {
+            "pregunta": "Ingresos",
+            "respuesta": "Todo el dinero recibido antes de retenciones o cualquier deducción."
+          },
+          {
+            "pregunta": "Gastos",
+            "respuesta": "Dinero que se usa para cubrir tus necesidades."
+          },
+          {
+            "pregunta": "Necesidades básicas primarias",
+            "respuesta": "Alimentación, vivienda y salud."
+          },
+          {
+            "pregunta": "Necesidades básicas secundarias",
+            "respuesta": "Educación (propia o de terceros), transporte y entretenimiento."
+          }
+        ],
+        "retroalimentacion": "Define qué resulta básico para tí, haz tu propia lista y suma cuanto te cuestan al mes esos gastos, incluye los gastos no mensuales como impuesto a la vivienda o a los ingresos y gastos en seguros, matrículas, útiles escolares, etc."
+      },
+      {
+        "titulo": "Múltiple respuesta...",
+        "tipo": "mr",
+        "descripcion": "Una vida financiera sana debe incluir:",
+        "opciones": [
+          {
+            "texto": "Gastar bien",
+            "value": true
+          },
+          {
+            "texto": "Cuentas",
+            "value": false
+          },
+          {
+            "texto": "Ahorrar",
+            "value": true
+          },
+          {
+            "texto": "Apuestas",
+            "value": false
+          },
+          {
+            "texto": "Ingresos",
+            "value": false
+          },
+          {
+            "texto": "Inversión",
+            "value": true
+          },
+          {
+            "texto": "Compras",
+            "value": false
+          },
+          {
+            "texto": "Suministros",
+            "value": false
+          },
+          {
+            "texto": "Manejo de deudas",
+            "value": true
+          },
+          {
+            "texto": "Compartir",
+            "value": true
+          },
+          {
+            "texto": "Estudiar",
+            "value": false
+          },
+          {
+            "texto": "Manejo de seguros",
+            "value": true
+          },
+          {
+            "texto": "Rentabilidad",
+            "value": false
+          }
+        ],
+
+        "retroalimentacion": false
+      },
+      {
+        "titulo": "Elige el equivalente...",
+        "tipo": "ele",
+        "descripcion": "Cerdito.png",
+        "opciones": [
+          {
+            "texto": "Ahorro",
+            "value": true
+          },
+          {
+            "texto": "Fiador",
+            "value": false
+          },
+          {
+            "texto": "Préstamo hipotecario",
+            "value": false
+          },
+          {
+            "texto": "Presupuesto",
+            "value": false
+          },
+          {
+            "texto": "Ingresos",
+            "value": false
+          },
+          {
+            "texto": "Inversión",
+            "value": false
+          },
+          {
+            "texto": "Endeudarse",
+            "value": false
+          },
+          {
+            "texto": "Historial créditicio",
+            "value": false
+          }
+        ],
+        "retroalimentacion": "El ahorro es una reserva que se guarda o se cuida en el presente para gastarla o invertirla en el futuro. Puedes ahorrar dinero y otros recursos, que te servirán para cumplir tus sueños o atender una emergencia o un gasto inesperado."
+      },
+      {
+        "titulo": "Emparejamiento...",
+        "tipo": "emp",
+        "descripcion": "",
+        "opciones": [
+          {
+            "pregunta": "Activo",
+            "respuesta": "Todo aquello que poseo y me genera ingresos."
+          },
+          {
+            "pregunta": "Pasivo",
+            "respuesta": "Todo aquello que debo."
+          },
+          {
+            "pregunta": "Patrimonio",
+            "respuesta": "Todo aquello que poseo y no debo."
+          },
+          {
+            "pregunta": "Gasto suntuario",
+            "respuesta": "Todo aquel pago o compra que no es una necesidad básica."
+          }
+        ],
+
+        "retroalimentacion": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Estado Financiero 2",
+    "imagen_desbloqueado": "Nivel_2.png",
+    "imagen_bloqueado": "Nivel_2_gris.png",
+    "requerimientos": [1],
+    "preguntas": [
+      {
+        "titulo": "Completa la oración...",
+        "tipo": "clo",
+        "descripcion": "Mi ingreso MENSUAL debería estar distribuído en _____ de ahorro,_____ deudas, _____ gastos básicos.",
+        "opciones": [
+          {
+            "texto": "15% de ahorro, 70% deudas, 15% en gastos básicos.",
+            "value": false
+          },
+          {
+            "texto": "50% de ahorro, 25% deudas, 25% en gastos básicos.",
+            "value": false
+          },
+          {
+            "texto": "10% de ahorro, 20% deudas, 70% en gastos básicos.",
+            "value": true
+          },
+          {
+            "texto": "70% de ahorro, 10% deudas, 20% en gastos básicos.",
+            "value": false
+          },
+          {
+            "texto": "20% de ahorro, 50% deudas, 30% en gastos básicos.",
+            "value": false
+          }
+        ],
+        "retroalimentacion": "Cuando el pago mensual por concepto de deudas excede el 30% la situación financiera se torna incómoda y siente que el dinero no le alcanza, cuando es mayor al 40% se torna desesperante e inmanejable"
+      },
+      {
+        "titulo": "Elige la respuesta correcta...",
+        "tipo": "elrc",
+        "descripcion": "Si el salario acordado con mi empresa empleadora es de $1’000.000 de pesos y mensualmente recibo la suma $ 850.000 después de deducciones y retenciones, el ingreso que debo usar en mi balance debería ser...",
+        "opciones": [
+          {
+            "texto": "$1'000.000",
+            "value": true
+          },
+          {
+            "texto": "$850.000",
+            "value": false
+          }
+        ],
+        "retroalimentacion": "Recuerda que los ingresos brutos son el total que percibe un individuo antes de descontar los impuestos."
+      },
+      {
+        "titulo": "Múltiple respuesta...",
+        "tipo": "mr",
+        "descripcion": "Todos aquellos bienes que posees y te generen ingresos son activos y aquellos no te generan ingreso son caprichos, teniendo en cuenta esto, algunos activos pueden ser:",
+        "opciones": [
+          {
+            "texto": "Vehículo",
+            "value": true
+          },
+          {
+            "texto": "Deudas",
+            "value": false
+          },
+          {
+            "texto": "Inversiones",
+            "value": true
+          },
+          {
+            "texto": "Obligaciones",
+            "value": false
+          },
+          {
+            "texto": "Conocimiento",
+            "value": false
+          },
+          {
+            "texto": "Computadora",
+            "value": true
+          },
+          {
+            "texto": "Entretenimiento",
+            "value": false
+          },
+          {
+            "texto": "Trabajo",
+            "value": false
+          },
+          {
+            "texto": "Muebles de la casa",
+            "value": true
+          },
+          {
+            "texto": "Ahorros",
+            "value": true
+          },
+          {
+            "texto": "Educación",
+            "value": false
+          },
+          {
+            "texto": "Vivienda propia",
+            "value": true
+          },
+          {
+            "texto": "Apuestas",
+            "value": false
+          }
+        ],
+
+        "retroalimentacion": false
+      },
+      {
+        "titulo": "Completa la oración...",
+        "tipo": "clo",
+        "descripcion": "Para tener resultados, una buena práctica, es evaluar tu estado financiero al menos ___________, de esta manera podrás manejar un registro de tus finanzas y realizar proyecciones a futuro.",
+        "opciones": [
+          {
+            "texto": "Diariamente",
+            "value": false
+          },
+          {
+            "texto": "Semanalmente",
+            "value": false
+          },
+          {
+            "texto": "Quincenalmente",
+            "value": false
+          },
+          {
+            "texto": "Mensualmente",
+            "value": true
+          },
+          {
+            "texto": "Trimestralmente",
+            "value": false
+          },
+          {
+            "texto": "Semestralmente.",
+            "value": false
+          },
+          {
+            "texto": "Anualmente.",
+            "value": false
+          }
+        ],
+
+        "retroalimentacion": false
+      },
+      {
+        "titulo": "Elige la respuesta correcta...",
+        "tipo": "elrc",
+        "descripcion": "Juan, quiere mejorar sus finanzas personales y para ello inicia con su balance general; Él tiene un pequeño gasto diario que no reporta porque considera que los $10.000 que gasta en su cajetilla de cigarrillos no harán mayor diferencia.Sin embargo a fin de més tiene descuadre de $300.000 qué no sabe de dónde provienen. ¿Qué le hizo falta a Juan para tener un balance general bien elaborado?",
+        "opciones": [
+          {
+            "texto": "Conocimiento",
+            "value": false
+          },
+          {
+            "texto": "Gastar menos",
+            "value": false
+          },
+          {
+            "texto": "Revisar su estado financiero",
+            "value": false
+          },
+          {
+            "texto": "Estudio",
+            "value": false
+          },
+          {
+            "texto": "Reportar todos sus gastos",
+            "value": true
+          },
+          {
+            "texto": "No fumar",
+            "value": false
+          }
+        ],
+        "retroalimentacion": "La sinceridad es esencial en el proceso de adquirir salud financiera, de manera que permita una total transparencia en la evaluación de tu estado financiero."
+      },
+      {
+        "titulo": "Emparejamiento...",
+        "tipo": "emp",
+        "descripcion": "",
+        "opciones": [
+          {
+            "pregunta": "Gastos no mensuales",
+            "respuesta": "Matriculas de colegio, universidad, útiles escolares, impuesto predial, vestimenta, navidad, vacaciones, etc."
+          },
+          {
+            "pregunta": "Gastos de entretenimiento",
+            "respuesta": "Cine, salidas a comer, paseos, fiestas, aficiones, otros."
+          },
+          {
+            "pregunta": "Gastos de mantenimiento",
+            "respuesta": "Electricidad, agua, gas, televisión, celular,hipoteca o arriendo, administración, empleada, otros. "
+          },
+          {
+            "pregunta": "Gastos financieros",
+            "respuesta": "Gastos fijos, préstamos de libre inversión, tarjetas de crédito, otros."
+          }
+        ],
+        "retroalimentacion": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Ingresos y Gastos",
+    "imagen_desbloqueado": "Nivel_3.png",
+    "imagen_bloqueado": "Nivel_3_gris.png",
+    "requerimientos": [1, 2],
+    "preguntas": []
+  },
+  {
+    "id": 4,
+    "nombre": "Ahorro e Inversión",
+    "imagen_desbloqueado": "Nivel_4.png",
+    "imagen_bloqueado": "Nivel_4_gris.png",
+    "requerimientos": [1, 2, 3],
+    "preguntas": []
+  },
+  {
+    "id": 5,
+    "nombre": "Seguridad",
+    "imagen_desbloqueado": "Nivel_5.png",
+    "imagen_bloqueado": "Nivel_5_gris.png",
+    "requerimientos": [],
+    "preguntas": []
+  }
+]

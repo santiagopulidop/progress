@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a .button-navbar {
+  border-radius: unset;
+}
+
+#carrusel-videos {
+  max-height: 50%;
+  margin: 100px 5% 0 5%;
+}
+
+@media screen and (min-width: 1024px) {
+  #carrusel-videos {
+    width: 100%;
+    max-width: 60%;
+    margin: auto;
+  }
+}
+
+.historia {
+  max-width: 90%;
+}
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #vista-tablet .card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  #vista-tablet .card {
+    max-width: 43%;
+  }
+  #vista-tablet .card img {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #vista-tablet {
+    display: none;
+  }
+}
+
+#desktop {
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 490px) {
+  #desktop .card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  #desktop .card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  #logo {
+    display: none;
+  }
+}
+
+.cuenta-historia {
+  width: 100%;
+  max-width: 85%;
+  margin: auto;
+}
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  .cuenta-historia .contenido-historia,
+  .cuenta-historia .titulo-historia {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+  }
+  .cuenta-historia #atras {
+    top: 16%;
+  }
+}
+
+.mini-header {
+  max-width: 60%;
+  margin: auto;
+  max-height: 80px;
+}
+
+.mini-header .card-body {
+  min-height: 35px;
+}
+
+.contenedor-inspirate #seccion-inspirate {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.contenedor-inspirate #atras {
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid black;
+  border-radius: 30%;
+  position: absolute;
+  left: 2%;
+  top: 14%;
+  color: black;
+}
+
+.contenedor-inspirate .titulo-historia {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+  .contenedor-inspirate #seccion-inspirate {
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35px;
+    padding: 0.5%;
+  }
+  .contenedor-inspirate .titulo-historia {
+    margin: auto;
+  }
+  .contenedor-inspirate #atras {
+    top: 17%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contenedor-inspirate #seccion-inspirate {
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 50px;
+    padding: 0.6%;
+  }
+  .contenedor-inspirate .titulo-historia {
+    margin: auto;
+  }
+  .contenedor-inspirate #atras {
+    top: 16%;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

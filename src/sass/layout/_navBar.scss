@@ -1,0 +1,22 @@
+@import "core/variables";
+
+.navbar {
+  width: 100%;
+  max-width: fit-content;
+  margin: auto;
+  a {
+    text-decoration: none;
+    .btn-one {
+      border-radius: 7px 0px 0px 7px;
+    }
+    .btn-two {
+      border-radius: 0px;
+    }
+    .btn-three {
+      border-radius: 0px 7px 7px 0px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,145 @@
+//core
+@import "core/variables";
+// Layout
+@import "layout/navBar";
+
+// Components
+@import "components/_preguntas";
+@import "components/_contenedor-preguntas";
+@import "components/_contenedor-niveles";
+
+// Pages
+@import "pages/_aprende";
+@import "pages/_blog";
+@import "pages/_inspirate";
+@import "pages/_inicioSesion.scss";
+
+body {
+  font-family: $font-roboto;
+  color: $gris;
+  margin: 0;
+  font-size: 1rem;
+  background-image: url("../assets/img/Fondo.png");
+}
+.bg {
+  background-color: white;
+  width: 80vw;
+  height: auto;
+  min-height: 90vh;
+  margin: auto;
+  margin-top: 0.5rem;
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  word-wrap: break-word;
+}
+
+.header {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  font-family: $font-pacifico;
+  color: $info;
+  background-color: #f9f9f9;
+  box-shadow: 0 7px 14px -6px rgba(0, 0, 0, 0.73);
+  min-height: 3rem;
+  img {
+    max-height: 2.5rem;
+  }
+}
+
+.header-login {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 3rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  font-family: $font-pacifico;
+  color: $info;
+  background-color: #f9f9f9;
+  box-shadow: 0 7px 14px -6px rgba(0, 0, 0, 0.73);
+  .perfil {
+    margin-right: 5%;
+    width: initial;
+    font-family: $font-roboto;
+    .input-group {
+      width: initial;
+    }
+
+    svg.fa-user {
+      margin: 10px;
+    }
+    svg.fa-fire {
+      margin: 0px;
+      color: $amarillo;
+      margin-right: 5px;
+    }
+    p {
+      margin: 20px 25px 0 0;
+      color: $verde;
+    }
+  }
+
+  .fa-user {
+    margin-left: 80vw;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-size: 2rem;
+    color: $info;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 50%;
+    margin-right: 10%;
+    h2 {
+      align-self: flex-end;
+      padding-right: 4%;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 500px) {
+    align-items: center;
+    .header-logo {
+      margin: 0;
+    }
+    .perfil {
+      margin: 0 0 0 46px;
+      p {
+        margin: 6px 25px 0 0;
+      }
+    }
+    h2 {
+      padding-left: 20px;
+    }
+  }
+  @media screen and (min-width: 501px) and (max-width: 1023px) {
+    .header-logo {
+      width: 40%;
+
+      h2 {
+        align-self: flex-start;
+        padding-left: 45px;
+      }
+    }
+
+    .perfil {
+      margin-right: 5px;
+      p {
+        margin: 13px 25px 0 0;
+      }
+    }
+    h2 {
+      padding-top: 7px;
+    }
+  }
+}
+//PopUp
+.Toastify__toast {
+  border: solid 2px $morado;
+  color: $gris;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+}

@@ -1,0 +1,28 @@
+@import "core/variables";
+
+//Niveles
+
+.nivel {
+  margin-top: 5vh;
+  text-align: center;
+  font-family: $font-roboto;
+  p {
+    color: $gris;
+    font-size: 1.1em;
+  }
+
+  .img_nivel {
+    max-width: 110px;
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+//nivel 2
+img.nivel-dos {
+  width: 90%;
+  margin: 5%;
+}

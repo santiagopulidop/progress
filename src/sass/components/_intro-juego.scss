@@ -1,0 +1,118 @@
+@import "core/variables";
+
+h3 {
+  text-align: center;
+  margin: auto;
+  color: $info;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.div-mensaje {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  h5 {
+    padding-bottom: 3vh;
+    text-align: center;
+    margin: auto;
+    color: $info;
+  }
+  .p {
+    background-image: url("../../assets/img/Burbuja.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    margin-right: 5vw;
+    font-size: 0.9em;
+    padding: 25px 50px 0px 20px;
+    text-align: justify;
+    color: $gris;
+  }
+
+  img {
+    width: 15%;
+    max-width: 180px;
+    min-width: 80px;
+    margin: 0;
+  }
+}
+.p1 {
+  color: $gris;
+  text-align: justify;
+  max-width: 550px;
+  margin: auto;
+  padding-top: 1.1em;
+}
+
+span {
+  font-weight: 700;
+}
+.rosa {
+  color: $rosa;
+}
+.verde {
+  color: $verde;
+}
+.morado {
+  color: $morado;
+}
+.amarillo {
+  color: $amarillo;
+}
+.chevron {
+  font-size: 3em;
+  color: $amarillo;
+}
+
+// vista cel
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .div-mensaje .p {
+    padding: 5px 40px 0px 5px;
+    font-size: 0.8em;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .div-mensaje {
+    .p {
+      font-size: 0.8em;
+      margin-right: 0;
+      margin-left: 5px;
+      line-height: 1.1;
+      background-image: none;
+      max-width: 50%;
+      text-align: left;
+    }
+
+    .link .btn {
+      margin-top: 7%;
+      margin-left: 35%;
+    }
+  }
+  .p1 {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 9px 37px 0px 9px;
+  }
+}
+
+@media (max-width: 500px) {
+  .div-mensaje img {
+    max-height: 133px;
+  }
+  .link {
+    .btn {
+      margin-left: 30%;
+    }
+  }
+  .p1 {
+    margin: 3%;
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+}
